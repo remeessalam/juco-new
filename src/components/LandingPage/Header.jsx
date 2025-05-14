@@ -32,22 +32,30 @@ const Header = () => {
             data-aos="fade-down"
             className="hidden lg:flex items-center gap-10 text-white"
           >
-            <Link
+            {/* <Link
               to="/"
               className="text-md cursor-pointer"
               activeClass="active-link"
             >
               Home
-            </Link>
-            <Link to="/about-us" className="text-md cursor-pointer">
+            </Link> */}
+            <ScrollLink
+              to="about-us"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-120}
+              className="text-md cursor-pointer"
+              activeClass="active-link"
+            >
               About Us
-            </Link>
+            </ScrollLink>
             <ScrollLink
               to="services"
               spy={true}
               smooth={true}
               duration={500}
-              offset={-20}
+              offset={-120}
               className="text-md cursor-pointer"
               activeClass="active-link"
             >
@@ -81,7 +89,7 @@ const Header = () => {
             onClick={() => setIsOpen(!isOpen)}
           >
             <Hamburger
-              color="#17012C"
+              color="white"
               size="26"
               toggled={isOpen}
               rounded

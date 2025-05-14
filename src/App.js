@@ -64,14 +64,11 @@ function App() {
               </Route>
 
               {/* Generic Routes */}
-              <Route
-                path="/web-development"
-                element={<LandingPage page={"web-development"} />}
-              />
-              <Route
+              <Route path="/landing-page" element={<LandingPage />} />
+              {/* <Route
                 path="/app-development"
                 element={<LandingPage page={"app-development"} />}
-              />
+              /> */}
             </Routes>
           </NormalizeSlash>
         </Suspense>

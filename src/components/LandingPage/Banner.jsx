@@ -80,41 +80,19 @@ const Banner = ({ page }) => {
       <div className="w-full absolute left-0 top-0 h-full">
         <div className="wrapper h-full grid md:grid-cols-[55%_auto] items-center md:gap-10">
           <div className="flex w-full flex-col items-start justify-center relative z-10">
-            {isWebDevelopment ? (
-              <>
-                <h1 data-aos="fade-right" className="heading-1 text-white">
-                  Websites that Don’t Just Look Good—They Deliver Results
-                </h1>
-                <p
-                  data-aos="fade-right"
-                  className="description text-white mt-2"
-                >
-                  In today's dynamic business landscape, having a robust online
-                  presence is vital. At AI Company, we specialize in creating
-                  innovative, high-performance websites and applications
-                  tailored to your specific needs. Our solutions ensure smooth
-                  user experiences and build meaningful, long-lasting
-                  relationships with your audience.
-                </p>
-              </>
-            ) : (
-              <>
-                <h1 data-aos="fade-right" className="heading-1 text-white">
-                  Apps That Users Love and Businesses Rely On!
-                </h1>
-                <p
-                  data-aos="fade-right"
-                  className="description text-white mt-2"
-                >
-                  In today's competitive landscape, a cutting-edge mobile app is
-                  crucial for success. At AI Company, we design user-friendly,
-                  high-performance apps tailored to your business needs,
-                  ensuring exceptional user experiences and building strong,
-                  enduring connections.
-                </p>
-              </>
-            )}
+            <h1 data-aos="fade-right" className="heading-1 text-white">
+              Beyond Development: Intelligent Tech Solutions for the Digital Age
+            </h1>
+            <p data-aos="fade-right" className="description text-white mt-2">
+              From Blockchain systems that redefine security to AI that
+              transforms customer experiences, we build future-ready solutions.
+              Our full-spectrum services - including Cloud Migration, Data
+              Science, and Process Automation - are designed to future-proof
+              your business, enhance efficiency, and unlock new opportunities in
+              an increasingly connected world.
+            </p>
           </div>
+
           <div data-aos="fade-left" className="md:flex hidden justify-center">
             <Link to="contact" id="robot" className="cursor-pointer">
               <img
