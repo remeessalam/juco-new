@@ -24,12 +24,12 @@ const AboutUs = () => {
       <section className="py-[3rem] wrapper grid gap-10 lg:grid-cols-2">
         <div className="flex flex-col">
           <h1 data-aos="fade-right" className="heading">
-            AI Company Leading in Software Development and Advanced Tech
+            JUOC Solutions LLP Leading in Software Development and Advanced Tech
             Solutions
           </h1>
           <p data-aos="fade-right" className="description mt-4">
-            AI Company was founded with a vision to transform businesses by
-            leveraging the power of AI and advanced technologies. Our passion
+            JUOC Solutions LLP was founded with a vision to transform businesses
+            by leveraging the power of AI and advanced technologies. Our passion
             for innovation drives us to deliver solutions that not only meet
             industry standards but set new ones. With a global reach and a team
             of experts dedicated to excellence, we are committed to helping our
@@ -54,12 +54,12 @@ const AboutUs = () => {
           About Us
         </h1>
         <h5 data-aos="fade-right" className="text-2xl mt-4">
-          The Journey of AI Company:
+          The Journey of JUOC Solutions LLP:
         </h5>
         <p data-aos="fade-right" className="description mt-3">
-          At AI Company, we lead the charge in reshaping the digital world. By
-          merging cutting-edge AI technology with expertise in web and mobile
-          development, cloud computing, and data analytics, we empower
+          At JUOC Solutions LLP, we lead the charge in reshaping the digital
+          world. By merging cutting-edge AI technology with expertise in web and
+          mobile development, cloud computing, and data analytics, we empower
           businesses to thrive in a tech-driven future. Explore the intersection
           of innovation and technology, with solutions tailored to your unique
           goals. Together, let’s craft tomorrow’s possibilities.
@@ -86,8 +86,8 @@ const AboutUs = () => {
           <li>Consistently achieving a 95% client satisfaction rate</li>
         </ul>
         <p className="mt-5 description">
-          At AI Company, we’re not just innovating technology — we’re solving
-          real-world challenges. Every project reflects our passion for
+          At JUOC Solutions LLP, we’re not just innovating technology — we’re
+          solving real-world challenges. Every project reflects our passion for
           redefining what’s possible with AI, driving progress and delivering
           value.
         </p>

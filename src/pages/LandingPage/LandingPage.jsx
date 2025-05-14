@@ -47,9 +47,9 @@ const LandingPage = () => {
                     Book Your Free Consultation
                   </p>
                   <p className="description">
-                    AI Company is an AI company based in Bengaluru. We help
-                    organizations kickstart their AI journey. If you’re seeking
-                    a solution for your organization to enhance customer
+                    JUOC Solutions LLP is an AI company based in Bengaluru. We
+                    help organizations kickstart their AI journey. If you’re
+                    seeking a solution for your organization to enhance customer
                     support, boost employee productivity, and make the most of
                     your organization’s data, look no further.
                   </p>
@@ -72,7 +72,7 @@ const LandingPage = () => {
           </h1>
           <div className="grid md:grid-cols-2 gap-5 md:gap-10">
             <p data-aos="fade-right" className="description">
-              At JUOC Solutions, we're at the forefront of digital
+              At JUOC Solutions LLP, we're at the forefront of digital
               transformation, specializing in Blockchain, AI, Cloud, and
               Automation solutions. Based in Bengaluru, India's tech hub, our
               team of visionary engineers and developers creates intelligent

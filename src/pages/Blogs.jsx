@@ -20,7 +20,7 @@ const Blogs = () => {
           >
             Exploring the Edge of Digital Transformation
           </h4>
-          <div className="mt-[2rem] grid sm:grid-cols-2 lg:grid-cols-2 gap-4 md:gap-7">
+          <div className="mt-[2rem] grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-7">
             {blogs.map((blog) => (
               <BlogItem key={blog.id} blog={blog} />
             ))}
@@ -42,20 +42,21 @@ export const BlogItem = ({ blog }) => {
   return (
     <div
       data-aos="fade-up"
+      data-aos-offset="-800"
       className="bg-white rounded-xl p-5 relative z-10 group border"
     >
-      <Link to={`/blog-detail/${blog.id}`} target="_blank">
+      <Link to={blog.link} target="_blank">
         <img
-          src={blog.image}
+          src={blog.img}
           alt=""
           width="600"
           height="400"
-          className="bg-cover aspect-video w-full rounded-xl group-hover:opacity-85 transition-all duration-200"
+          className="group-hover:brightness-90 h-[15rem] max-h-[15rem] object-cover w-full rounded-xl transition-all duration-300"
         />
       </Link>
       <div className="flex flex-col gap-3 mt-[1.5rem]">
         <Link
-          to={`/blog-detail/${blog.id}`}
+          to={blog.link}
           target="_blank"
           className="text-xl hyphen-auto font-medium leading-tight line-clamp-2 text-ellipsis hover:text-tertiary transition-all duration-200"
         >
@@ -67,7 +68,7 @@ export const BlogItem = ({ blog }) => {
       </div>
       <div className="mt-6 w-full flex justify-center">
         <Link
-          to={`/blog-detail/${blog.id}`}
+          to={blog.link}
           target="_blank"
           className="w-full text-center bg-background border border-primary text-primary px-5 py-3 rounded-full hover:bg-primary hover:text-white hover:-translate-y-1 duration-300 transition-all"
         >

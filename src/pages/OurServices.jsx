@@ -19,9 +19,9 @@ const OurServices = () => {
       <section className="py-[3rem]">
         <div className="wrapper">
           <p className="description text-center">
-            At AI Company , we offer a comprehensive suite of services designed
-            to meet the diverse needs of modern businesses. Whether you're
-            looking to develop cutting-edge software, enhance your data
+            At JUOC Solutions LLP , we offer a comprehensive suite of services
+            designed to meet the diverse needs of modern businesses. Whether
+            you're looking to develop cutting-edge software, enhance your data
             analytics capabilities, or secure your digital assets, we have the
             expertise and technology to help you succeed.
           </p>

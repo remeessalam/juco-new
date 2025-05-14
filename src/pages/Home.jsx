@@ -48,18 +48,18 @@ const Home = () => {
                 Innovation to transform your organization.
               </h3>
               <p className="description">
-                At AI Company, we are at the forefront of revolutionizing the
-                digital landscape. Our cutting-edge AI solutions, combined with
-                unmatched expertise in web and mobile development, cloud
-                computing, data analytics, and beyond, are designed to propel
-                your business into the future. Discover a world where technology
-                meets innovation, tailored to meet your unique needs. Let’s
-                build the future, together. <br />
-                <br /> At AI Company, we are at the forefront of AI innovation,
-                leveraging cutting-edge technologies to transform businesses and
-                enhance user experiences. Our AI-driven solutions are designed
-                to empower organizations with the tools they need to thrive in
-                an increasingly digital world.
+                At JUOC Solutions LLP, we are at the forefront of
+                revolutionizing the digital landscape. Our cutting-edge AI
+                solutions, combined with unmatched expertise in web and mobile
+                development, cloud computing, data analytics, and beyond, are
+                designed to propel your business into the future. Discover a
+                world where technology meets innovation, tailored to meet your
+                unique needs. Let’s build the future, together. <br />
+                <br /> At JUOC Solutions LLP, we are at the forefront of AI
+                innovation, leveraging cutting-edge technologies to transform
+                businesses and enhance user experiences. Our AI-driven solutions
+                are designed to empower organizations with the tools they need
+                to thrive in an increasingly digital world.
               </p>
             </div>
           </div>
@@ -121,7 +121,7 @@ const Home = () => {
           <div className="flex flex-col gap-5">
             <h3 className="heading">Our CEO Message</h3>
             <p className="description">
-              At AI Company, we leverage the power of AI to create
+              At JUOC Solutions LLP, we leverage the power of AI to create
               transformative digital experiences that elevate businesses. Our
               commitment to innovation drives us to develop intelligent
               solutions that enhance efficiency and foster growth. Together, we

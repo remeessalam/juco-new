@@ -29,9 +29,9 @@ const ContactUs = () => {
             </h1>
             <p className="description text-center lg:text-start">
               Ready to take the next step? Reach out to us today to discuss how
-              AI Company can help transform your business. Whether you have a
-              question, need support, or want to explore our services, we’re
-              here to help.
+              JUOC Solutions LLP can help transform your business. Whether you
+              have a question, need support, or want to explore our services,
+              we’re here to help.
             </p>
           </div>
           <div className="flex justify-center">
