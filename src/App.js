@@ -15,6 +15,7 @@ import SpinnerContextProvider, {
   LoadingSpinnerContext,
 } from "./components/SpinnerContext";
 import { Toaster } from "react-hot-toast";
+import CallIcon from "./components/CallIcon";
 
 const Home = lazy(() => import("./pages/Home"));
 const OurServices = lazy(() => import("./pages/OurServices"));
@@ -45,6 +46,8 @@ function App() {
           <Toaster position="top-center" />
           <NormalizeSlash>
             <WhatsAppIcon />
+            <CallIcon />
+
             <Routes>
               <Route path="*" element={<Navigate to="/" replace />} />
               <Route path="/" element={<Home />} />
