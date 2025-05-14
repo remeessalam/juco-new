@@ -15,7 +15,6 @@ import SpinnerContextProvider, {
   LoadingSpinnerContext,
 } from "./components/SpinnerContext";
 import { Toaster } from "react-hot-toast";
-import CallIcon from "./components/CallIcon";
 
 const Home = lazy(() => import("./pages/Home"));
 const OurServices = lazy(() => import("./pages/OurServices"));
@@ -29,6 +28,7 @@ const LandingPage = lazy(() => import("./pages/LandingPage/LandingPage"));
 const Industries = lazy(() => import("./pages/Industries"));
 const Blogs = lazy(() => import("./pages/Blogs"));
 const BlogsDetail = lazy(() => import("./pages/BlogsDetail"));
+const CallIcon = lazy(() => import("./components/CallIcon"));
 
 Aos.init({
   once: true,
