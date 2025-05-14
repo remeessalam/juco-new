@@ -1,12 +1,13 @@
 import React from "react";
 import Header from "./Header";
 import { Link, Outlet, useLocation } from "react-router-dom";
-import { allServices, clientDetails } from "../../constants";
+import { clientDetails } from "../../constants";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import Footer from "./Footer";
 import { BsClock } from "react-icons/bs";
 import GetInTouch from "../GetInTouch";
+import { allServices } from "../../data/servicesDetails";
 
 const ServicePageLayout = () => {
   const { pathname } = useLocation();

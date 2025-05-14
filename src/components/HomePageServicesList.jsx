@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { allServices } from "../constants";
+// import { allServices } from "../constants";
 import { Link, useLocation } from "react-router-dom";
+import { allServices } from "../data/servicesDetails";
 
 const HomePageServicesList = () => {
   const [selectedService, setSelectedService] = useState(allServices[0]);
@@ -13,7 +14,9 @@ const HomePageServicesList = () => {
   return (
     <section className="wrapper py-[3rem]">
       {!pathname.includes("/services") && (
-        <h6 className="gradient-text text-center mb-8 uppercase">Services We Offer</h6>
+        <h6 className="gradient-text text-center mb-8 uppercase">
+          Services We Offer
+        </h6>
       )}
       <div className="grid md:grid-cols-[38%_58%] gap-10 p-5 bg-gradient-to-r to-primary/15 from-secondary/20 rounded-lg">
         <div className="w-full flex flex-col gap-10">

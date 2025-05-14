@@ -1,10 +1,11 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
-import { allServices, clientDetails } from "../constants";
+import { clientDetails } from "../constants";
 import { BiCaretRight } from "react-icons/bi";
 import { SpinnerContext } from "./SpinnerContext";
 import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
+import { allServices } from "../data/servicesDetails";
 
 const GetInTouch = () => {
   return (

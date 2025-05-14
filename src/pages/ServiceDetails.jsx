@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigate, useParams } from "react-router-dom";
-import { allServices } from "../constants";
+import { allServices } from "../data/servicesDetails";
 
 const ServiceDetails = () => {
   const { serviceName } = useParams();
