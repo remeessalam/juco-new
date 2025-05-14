@@ -43,10 +43,10 @@ const LandingPage = () => {
               <img src={webImg} className="w-full h-full object-cover" alt="" />
               <div className="absolute left-0 top-0 w-full p-3 h-full flex items-center justify-center bg-black/60">
                 <div className="text-white space-y-3 text-center">
-                  <p className="font-sans text-3xl sm:text-4xl font-bold">
+                  <p className="font-sans text-2xl sm:text-4xl font-bold">
                     Book Your Free Consultation
                   </p>
-                  <p className="description">
+                  <p className="description sm:!text-lg !text-sm">
                     JUOC Solutions LLP is an AI company based in Bengaluru. We
                     help organizations kickstart their AI journey. If you’re
                     seeking a solution for your organization to enhance customer

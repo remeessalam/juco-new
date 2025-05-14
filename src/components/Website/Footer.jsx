@@ -25,15 +25,15 @@ const Footer = () => {
           </p>
 
           <div className="flex mt-3 gap-5 items-center">
-            <Link to="#">
+            <Link to={clientDetails.linkedin}>
               <FaLinkedinIn className="text-2xl" />
             </Link>
-            <Link to="#">
+            <Link to={clientDetails.instagram}>
               <AiFillInstagram className="text-2xl" />
             </Link>
-            <Link to="#">
+            {/* <Link to="#">
               <GrFacebookOption className="text-2xl" />
-            </Link>
+            </Link> */}
           </div>
 
           <div className="space-y-2 flex flex-col mt-5">
@@ -41,7 +41,7 @@ const Footer = () => {
               {clientDetails.email}
             </Link>
             <Link to={`tel:${clientDetails.phone}`} className="">
-              +{clientDetails.phone}
+              {clientDetails.phone}
             </Link>
             <p className="">{clientDetails.address}</p>
           </div>

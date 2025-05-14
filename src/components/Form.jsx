@@ -155,7 +155,7 @@ const Form = () => {
   };
   return (
     <div data-aos="fade-left" className="flex flex-col items-start gap-3 group">
-      <div className="bg-gradient-to-b from-background to-background rounded-2xl w-full p-7">
+      <div className="bg-gradient-to-b from-primary to-primary/70 rounded-2xl w-full p-7">
         <h2 className="text-2xl font-medium">Get In Touch</h2>
         <form
           onSubmit={handleSubmit(handleFormSubmit)}
@@ -180,7 +180,7 @@ const Form = () => {
                   },
                 })}
               />
-              <p className="text-red-600">{errors.name?.message}</p>
+              <p className="">{errors.name?.message}</p>
             </div>
             <div className="">
               <label className="text-black">Email</label>
@@ -197,7 +197,7 @@ const Form = () => {
                   },
                 })}
               />
-              <p className="text-red-600">{errors.email?.message}</p>
+              <p className="">{errors.email?.message}</p>
             </div>
           </div>
           <div className="grid lg:grid-cols-1 gap-3">
