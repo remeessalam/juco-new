@@ -134,7 +134,7 @@ const Header = () => {
               {title}
             </ScrollLink>
           ))} */}
-          <ScrollLink
+          {/* <ScrollLink
             to="banner"
             onClick={() => setIsOpen(false)}
             spy={true}
@@ -144,7 +144,7 @@ const Header = () => {
             className="text-2xl font-medium link"
           >
             Home
-          </ScrollLink>
+          </ScrollLink> */}
           <Link to="/about-us" className="text-2xl font-medium link">
             About Us
           </Link>
