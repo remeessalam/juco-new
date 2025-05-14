@@ -389,37 +389,68 @@ export const clients = [
 export const testimonials = [
   {
     id: 1,
+    name: "Priya R.",
+    title: "Operations Head, SmartChain Solutions",
+    description: `Working with JUOC Solutions LLP was a game-changer for our blockchain integration. Their team delivered a secure and efficient blockchain solution that streamlined our operations. The transparency and reliability of the system have significantly improved our business processes. Highly recommended!`,
     img: "",
-    name: "Aarav Kapoor",
-    title: "Founder of TechSphere Innovations",
-    description:
-      "AI Company exceeded our expectations by delivering a solution that was both innovative and perfectly aligned with our business goals. Truly a game-changer!",
   },
   {
     id: 2,
+    name: "Arjun M.",
+    title: "Product Manager, FinTech Innovations",
+    description: `JUOC Solutions LLP’s AI and Machine Learning solutions transformed our data analytics capabilities. Their predictive models provided invaluable insights, helping us make data-driven decisions with confidence. Their team’s expertise and dedication made all the difference.`,
     img: "",
-    name: "Sanya Mehta",
-    title: "CTO of GreenLink Energy Solutions",
-    description:
-      "Collaborating with AI Company was a seamless experience. Their team’s expertise and commitment to excellence helped us achieve remarkable results.",
   },
   {
     id: 3,
+    name: "Meera S.",
+    title: "Creative Director, GameSphere Studios",
+    description: `Our experience with JUOC Solutions LLP in game development was fantastic. They brought our vision to life with a captivating 3D game that exceeded our expectations. The user experience is immersive, and player feedback has been overwhelmingly positive.`,
     img: "",
-    name: "Rahul Verma",
-    title: "Director of OmniTrade Logistics",
-    description:
-      "AI Company delivered outstanding solutions tailored to our needs. Their professionalism and forward-thinking approach set them apart.",
   },
   {
     id: 4,
+    name: "Ravi K.",
+    title: "CEO, AutomateTech Solutions",
+    description: `JUOC Solutions LLP’s RPA implementation automated our repetitive tasks, saving us time and reducing human error. The efficiency gains were noticeable almost immediately, and their support throughout the process was exceptional.`,
     img: "",
-    name: "Dr. Ananya Gupta",
-    title: "CEO of MedEase Technologies",
-    description:
-      "The team at AI Company helped us revolutionize our platform, making it highly intuitive and user-friendly. Their work speaks volumes about their expertise and passion.",
   },
 ];
+// // testimonials
+// export const testimonials = [
+//   {
+//     id: 1,
+//     img: "",
+//     name: "Aarav Kapoor",
+//     title: "Founder of TechSphere Innovations",
+//     description:
+//       "AI Company exceeded our expectations by delivering a solution that was both innovative and perfectly aligned with our business goals. Truly a game-changer!",
+//   },
+//   {
+//     id: 2,
+//     img: "",
+//     name: "Sanya Mehta",
+//     title: "CTO of GreenLink Energy Solutions",
+//     description:
+//       "Collaborating with AI Company was a seamless experience. Their team’s expertise and commitment to excellence helped us achieve remarkable results.",
+//   },
+//   {
+//     id: 3,
+//     img: "",
+//     name: "Rahul Verma",
+//     title: "Director of OmniTrade Logistics",
+//     description:
+//       "AI Company delivered outstanding solutions tailored to our needs. Their professionalism and forward-thinking approach set them apart.",
+//   },
+//   {
+//     id: 4,
+//     img: "",
+//     name: "Dr. Ananya Gupta",
+//     title: "CEO of MedEase Technologies",
+//     description:
+//       "The team at AI Company helped us revolutionize our platform, making it highly intuitive and user-friendly. Their work speaks volumes about their expertise and passion.",
+//   },
+// ];
 
 // industry company serve
 export const industriesCompanyServe = [
