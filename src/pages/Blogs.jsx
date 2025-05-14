@@ -42,7 +42,7 @@ export const BlogItem = ({ blog }) => {
   return (
     <div
       data-aos="fade-up"
-      data-aos-offset="-800"
+      data-aos-offset="-100"
       className="bg-white rounded-xl p-5 relative z-10 group border"
     >
       <Link to={blog.link} target="_blank">
