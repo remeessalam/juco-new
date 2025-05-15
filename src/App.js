@@ -64,7 +64,7 @@ function App() {
               </Route>
 
               {/* Generic Routes */}
-              <Route path="/landing-page" element={<LandingPage />} />
+              <Route path="/solutions" element={<LandingPage />} />
               {/* <Route
                 path="/app-development"
                 element={<LandingPage page={"app-development"} />}
