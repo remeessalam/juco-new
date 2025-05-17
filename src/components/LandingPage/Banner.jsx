@@ -5,6 +5,7 @@ import robot from "../../assets/ai-robot.png";
 import gsap from "gsap";
 import bannerThumb from "../../assets/vids/banner-thumb.webp";
 import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 
 const Banner = ({ page }) => {
   const isWebDevelopment = Boolean(page === "web-development");
@@ -91,6 +92,16 @@ const Banner = ({ page }) => {
               your business, enhance efficiency, and unlock new opportunities in
               an increasingly connected world.
             </p>
+            <ScrollLink
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-90}
+              className="primary-btn mt-4"
+            >
+              Contact Us
+            </ScrollLink>
           </div>
 
           <div data-aos="fade-left" className="md:flex hidden justify-center">
