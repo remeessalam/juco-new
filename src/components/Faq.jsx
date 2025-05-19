@@ -36,6 +36,7 @@ const Faq = () => {
 
   return (
     <div className="wrapper ">
+      <h1 className="heading text-center mb-12">Frequently Asked Questions</h1>
       {faqData.map((category, catIndex) => (
         <div key={catIndex} className="mb-8">
           <h2 className="text-2xl font-bold mb-4">{category.category}</h2>
