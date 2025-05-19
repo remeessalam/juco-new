@@ -596,3 +596,284 @@ export const appPortfolio = [
     link: "https://play.google.com/store/apps/details?id=com.rentop&pcampaignid=web_share",
   },
 ];
+
+export const faqData = [
+  {
+    category: "Blockchain Development",
+    questions: [
+      {
+        question: "What types of blockchain projects do you work on?",
+        answer:
+          "We work on a range of blockchain solutions, including private blockchain systems, smart contract development, decentralized applications (dApps), and enterprise blockchain integration. Every project is customized based on what you’re trying to achieve.",
+        keywords:
+          "blockchain development services, enterprise blockchain solutions, smart contract development",
+      },
+      {
+        question: "Is blockchain suitable for my business?",
+        answer:
+          "It depends on your goals. If transparency, security, and decentralized data control are important to your operations, blockchain could offer real value. We’re happy to assess whether it’s the right fit before you commit to a build.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "Game Development",
+    questions: [
+      {
+        question: "What platforms do you develop games for?",
+        answer:
+          "We create games for mobile, desktop, and console platforms using engines like Unity and Unreal. Whether you’re building a casual mobile game or a more complex multiplayer experience, we have the tools and team to bring it to life.",
+        keywords:
+          "Unity game developers, mobile game development, cross-platform game design",
+      },
+      {
+        question: "Can you help with game monetization and retention?",
+        answer:
+          "Yes, we consider the business side of game development too. We help with in-game monetization strategies, ad integration, user engagement mechanics, and retention planning.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "App Development",
+    questions: [
+      {
+        question: "Do you develop apps for both iOS and Android?",
+        answer:
+          "We do. We build native apps when you need maximum performance, and cross-platform apps using tools like React Native or Flutter when you want to reach both platforms with a single codebase.",
+        keywords:
+          "custom mobile app development, iOS and Android app developers, cross-platform app development",
+      },
+      {
+        question: "What’s involved in the app development process?",
+        answer:
+          "Our process starts with understanding your goals, followed by wireframing, design, development, testing, and launch. You’ll be involved throughout so the final product aligns with your vision.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "Robotic Process Automation (RPA)",
+    questions: [
+      {
+        question: "What kind of tasks can RPA handle?",
+        answer:
+          "RPA is great for automating repetitive, rule-based tasks like data entry, invoice processing, HR onboarding, or pulling reports from different systems. It helps your team focus on more strategic work.",
+        keywords:
+          "robotic process automation services, business process automation, RPA for enterprises",
+      },
+      {
+        question: "Is RPA only for large companies?",
+        answer:
+          "Not at all. Smaller companies can benefit too, especially if you're spending too much time on manual workflows. We design automation that fits your size and systems.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "Artificial Intelligence (AI) Development",
+    questions: [
+      {
+        question: "What can you build with AI?",
+        answer:
+          "We build AI solutions that solve specific business problems — like product recommendations, customer insights, fraud detection, or automation tools. Each system is tailored to your use case.",
+        keywords:
+          "AI development company, artificial intelligence solutions, AI for business",
+      },
+      {
+        question:
+          "How do we get started with AI if we’ve never used it before?",
+        answer:
+          "We’ll help you identify where AI could add value, what kind of data you'll need, and the best way to integrate it into your existing systems.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "Machine Learning Services",
+    questions: [
+      {
+        question: "What’s the benefit of using machine learning?",
+        answer:
+          "Machine learning can spot patterns in your data and make predictions — like forecasting sales, detecting trends, or personalizing user experiences. It evolves as it learns, making your systems smarter over time.",
+        keywords:
+          "machine learning consulting, predictive analytics services, ML model development",
+      },
+      {
+        question: "Can you help us deploy machine learning into production?",
+        answer:
+          "Yes, we don’t just build models — we help you integrate them into real-world applications so your team can use them in everyday workflows.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "Cloud Computing Services",
+    questions: [
+      {
+        question: "Which cloud platforms do you work with?",
+        answer:
+          "We work with all the major platforms — AWS, Microsoft Azure, and Google Cloud. We can build cloud-native applications or help you move existing systems to the cloud.",
+        keywords:
+          "cloud computing solutions, AWS and Azure development, cloud infrastructure services",
+      },
+      {
+        question: "Can you help us improve our current cloud setup?",
+        answer:
+          "Absolutely. We offer cloud optimization services to reduce costs, improve performance, and strengthen security — whether you're already in the cloud or just starting to scale.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "Web Development",
+    questions: [
+      {
+        question: "What kind of websites do you build?",
+        answer:
+          "We create everything from marketing websites and product landing pages to complex web applications and portals. All of our sites are responsive and built for performance.",
+        keywords:
+          "professional web development, full-stack web development, responsive web applications",
+      },
+      {
+        question: "Do you provide design and content too?",
+        answer:
+          "Yes, we offer complete packages — including UI/UX design, content strategy, and on-page SEO — to make sure your site is not only functional but effective.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "Data Science Services",
+    questions: [
+      {
+        question: "What does data science mean for a business like mine?",
+        answer:
+          "It means turning your raw data into something useful — whether that’s identifying customer trends, optimizing operations, or making smarter forecasts. We help make your data actionable.",
+        keywords:
+          "data science company, business intelligence analytics, data visualization services",
+      },
+      {
+        question:
+          "We have a lot of data but don’t know what to do with it. Can you help?",
+        answer:
+          "That’s exactly what we do. We’ll evaluate your data, clean it up, and show you what insights are hidden inside it — then help you build tools around those insights.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "Natural Language Processing (NLP)",
+    questions: [
+      {
+        question: "What is NLP and how can it help?",
+        answer:
+          "NLP is about helping computers understand human language. It powers things like chatbots, text classification, and sentiment analysis. If you work with text-heavy data, NLP can streamline and enhance how you use it.",
+        keywords:
+          "NLP developers, chatbot development, sentiment analysis tools",
+      },
+      {
+        question: "Can you build NLP systems for customer service or support?",
+        answer:
+          "Yes, we build intelligent chatbots and helpdesks that can understand natural queries, answer questions, and improve the customer experience without overwhelming your support team.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "Cloud Migration Services",
+    questions: [
+      {
+        question: "What’s involved in moving our systems to the cloud?",
+        answer:
+          "Cloud migration includes assessing your current setup, planning the move, migrating data and apps, and making sure everything runs smoothly afterward. We take care of the technical heavy lifting.",
+        keywords:
+          "cloud migration solutions, on-premise to cloud services, legacy system migration",
+      },
+      {
+        question: "Will we experience downtime during the migration?",
+        answer:
+          "We plan carefully to minimize or eliminate downtime. For many clients, we can run migrations during off-hours or in phases to avoid disruption.",
+        keywords: "",
+      },
+    ],
+  },
+  {
+    category: "UI/UX Design",
+    questions: [
+      {
+        question: "Do you handle design before development?",
+        answer:
+          "Yes, design comes first. We create wireframes, interactive prototypes, and visual designs before development starts — so everything works and feels right from day one.",
+        keywords:
+          "user experience design services, UI/UX strategy, digital product design",
+      },
+      {
+        question:
+          "Can you refresh our current interface without rebuilding the whole thing?",
+        answer:
+          "Definitely. We offer UX audits and interface redesigns that can improve usability and look — often without touching the back end.",
+        keywords: "",
+      },
+    ],
+  },
+];
+
+export const reasons = [
+  {
+    title: "Deep Technical Expertise, Backed by Experience",
+    description:
+      "Our team brings real, hands-on experience across a wide range of technologies — not just in theory, but in action. From blockchain development and AI integration to cloud infrastructure and custom applications, we've built complex systems that solve real problems for companies of all sizes. We don’t just talk about innovation — we implement it in ways that are actually useful to your business.",
+    keywords:
+      "blockchain development experts, AI development services, experienced cloud engineers, mobile app development, enterprise software development",
+  },
+  {
+    title: "Solutions That Grow With You",
+    description:
+      "Every business wants to scale — but not every system is built with growth in mind. We build with the future in focus, designing platforms and tools that can evolve as your company does. Whether you're launching a startup or modernizing a legacy system, our goal is to create solutions that work today and keep working tomorrow.",
+    keywords:
+      "scalable digital solutions, long-term software development, enterprise-ready platforms, future-proof technology, growth-oriented IT services",
+  },
+  {
+    title: "We Design for Real People",
+    description:
+      "At the end of the day, your users are the ones who decide whether your product works or not. That’s why UI/UX design is a core part of what we do — not an afterthought. We focus on clarity, ease of use, and design that feels natural. Because no matter how powerful the tech is, it won’t matter if people can’t use it.",
+    keywords:
+      "human-centered design, intuitive user experience, UI/UX design company, product design services, user-first development",
+  },
+  {
+    title: "Clear Communication from Start to Finish",
+    description:
+      "You should never feel like you're chasing down answers or wondering where things stand. We keep our process transparent and collaborative, with regular check-ins, honest updates, and open lines of communication. You're never in the dark, and we never make decisions without you.",
+    keywords:
+      "transparent software development, collaborative tech teams, agile project management, clear development process, software with accountability",
+  },
+  {
+    title: "We Focus on What Matters",
+    description:
+      "We don't build software just to show off tech. Every line of code we write is tied to a business goal — whether that’s saving time, cutting costs, improving the customer experience, or opening up new revenue streams. We start by asking: what do you actually need to accomplish? Then we build toward that.",
+    keywords:
+      "results-driven development, business-focused technology, digital transformation with ROI, smart software solutions, performance-focused IT services",
+  },
+  {
+    title: "We Stay Ahead of the Curve",
+    description:
+      "Technology moves fast — and we stay current, so you don’t have to worry about falling behind. From machine learning and NLP tools to cloud-native architectures and RPA, we’re always learning, testing, and implementing what’s next. We bring that mindset into every project: modern, relevant, and ready for change.",
+    keywords:
+      "cutting-edge technology services, emerging tech solutions, machine learning consultants, NLP integration, next-gen software development",
+  },
+  {
+    title: "Experience Across Industries",
+    description:
+      "Over the years, we’ve worked with clients in finance, healthcare, logistics, retail, education, and more. That broad experience gives us perspective — and helps us apply tried-and-tested ideas across sectors to solve new challenges. No two businesses are the same, but some lessons are universal. We bring that understanding into every new engagement.",
+    keywords:
+      "industry-specific tech solutions, cross-sector software development, fintech application experts, healthcare tech development, retail automation systems",
+  },
+  {
+    title: "We Deliver What We Say We Will",
+    description:
+      "It sounds simple — but it’s surprisingly rare. We pride ourselves on doing what we said we’d do, when we said we’d do it. That means careful planning, realistic timelines, and a strong commitment to follow-through. You won’t get inflated estimates or shifting deadlines. Just honest work delivered on time and on budget.",
+    keywords:
+      "on-time delivery, reliable tech partner, managed software projects, cost-effective IT solutions, trusted software company",
+  },
+];

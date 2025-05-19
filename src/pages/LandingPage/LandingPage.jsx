@@ -11,6 +11,8 @@ import webImg from "../../assets/landingpage-services-imgs/web-development.webp"
 import appImg from "../../assets/landingpage-services-imgs/app-development.webp";
 import OurServices from "../OurServices";
 import aboutImg from "../../assets/aboutus-1.webp";
+import Faq from "../../components/Faq";
+import WhyChooseUs from "../../components/WhyChooseUs";
 
 const GetInTouch = lazy(() => import("../../components/GetInTouch"));
 const Testimonials = lazy(() => import("../../components/Testimonials"));
@@ -120,8 +122,10 @@ const LandingPage = () => {
       <IndustriesWeServe />
       <CallToAction />
       <Portfolio />
+      <WhyChooseUs />
       <Testimonials />
       <BrandLogos />
+      <Faq />
       <GetInTouch />
       <Footer />
     </>
