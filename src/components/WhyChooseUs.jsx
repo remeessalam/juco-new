@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
           </h2>
           <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
             We know there are a lot of tech companies out there. So what makes
-            us any different? At [Your Company Name], we keep things simple: we
+            us any different? At JUOC Solutions, we keep things simple: we
             listen carefully, build thoughtfully, and deliver what we promise.
             Whether you're building something from scratch or improving an
             existing system, we work as an extension of your team — combining
