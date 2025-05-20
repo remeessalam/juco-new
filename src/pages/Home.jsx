@@ -109,15 +109,15 @@ const Home = () => {
       <Portfolio />
       <Testimonials />
       <section className="wrapper">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-[15%_auto] items-center gap-7 pt-[5rem] pb-[3rem]">
-          <div className="md:aspect-[3/4] w-full overflow-hidden flex flex-col">
+        <div className="max-w-7xl mx-auto grid  items-center gap-7 pt-[5rem] pb-[3rem]">
+          {/* <div className="md:aspect-[3/4] w-full overflow-hidden flex flex-col">
             <img
               src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/35af6a41332353.57a1ce913e889.jpg"
               loading="lazy"
               alt="ceo"
               className="h-full w-fit md:w-full rounded-ss-3xl rounded-ee-3xl max-h-[20rem] object-cover"
             />
-          </div>
+          </div> */}
           <div className="flex flex-col gap-5">
             <h3 className="heading">Our CEO Message</h3>
             <p className="description">
