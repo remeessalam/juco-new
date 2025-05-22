@@ -82,15 +82,13 @@ const Banner = ({ page }) => {
         <div className="wrapper h-full grid md:grid-cols-[55%_auto] items-center md:gap-10">
           <div className="flex w-full flex-col items-start justify-center relative z-10">
             <h1 data-aos="fade-right" className="heading-1 text-white">
-              Beyond Development: Intelligent Tech Solutions for the Digital Age
+              Custom App, Web & Software Solutions for Every Industry
             </h1>
             <p data-aos="fade-right" className="description text-white mt-2">
-              From Blockchain systems that redefine security to AI that
-              transforms customer experiences, we build future-ready solutions.
-              Our full-spectrum services - including Cloud Migration, Data
-              Science, and Process Automation - are designed to future-proof
-              your business, enhance efficiency, and unlock new opportunities in
-              an increasingly connected world.
+              From mobile apps to AI-powered platforms — we build secure,
+              scalable solutions for healthcare, retail, real estate, logistics,
+              and more. Talk to our experts and get tailor-made digital products
+              built to perform.
             </p>
             <ScrollLink
               to="contact"
